@@ -14,10 +14,10 @@ public class BasicChatbot {
 
         System.out.println("Hello! I'm your BasicChatbot. How can I help you?");
 
-        // Populate responses (you can replace this with a more sophisticated approach)
+        // Populate responses 
         responses.put("how are you", "I'm doing well, thanks for asking!");
         responses.put("what is your name", "My name is BasicChatbot.");
-        // ... add more responses
+        // ...one can add more responses
 
         while (true) {
             userText = scanner.nextLine().toLowerCase();
